@@ -6,8 +6,7 @@ class TaskManager:
 
     def add_task(self, task_name):
         """Add a new task to the to-do list."""
-        # TODO1: Implement the add_task method
-        pass
+        self.tasks.append(task_name)
 
     def delete_task(self, task_index):
         """Delete a task from the to-do list based on its index."""
